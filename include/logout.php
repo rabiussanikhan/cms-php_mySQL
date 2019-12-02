@@ -1,0 +1,9 @@
+<?php
+ob_start();
+session_start();
+$_SESSION['username']=NULL;
+$_SESSION['user_firstname']=NULL;
+$_SESSION['user_lastname']=NULL;
+$_SESSION['user_role']=NULL;
+$_SESSION['user_id']=NULL;
+header("location:../index.php");
